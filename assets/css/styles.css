@@ -286,7 +286,23 @@ img {
 }
 
 /*=============== BUTTON ===============*/
-
+.button{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  background: var(--gradient-color);
+  padding: 1rem 1.8rem;
+  border-radius: 4rem;
+  color: var(--white-color);
+  font-weight: var(--font-medium);
+}
+.button i{
+  font-size: 1.5rem;
+  transition: transform .3s;
+}
+.button:hover i{
+  transform: translateX(.25rem);
+}
 
 /*=============== LIST ===============*/
 
