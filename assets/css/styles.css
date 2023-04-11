@@ -211,7 +211,21 @@ img {
 }
 
 /* Add blur to header */
-
+.blur-header{
+  background: transparent;
+}
+.blur-header::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: hsla(0, 0%, 100%, .3);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px); /* For Safari */
+  top: 0;
+  left: 0;
+  z-index: -1;  
+}
 
 /* Active link */
 
