@@ -819,7 +819,31 @@ body.dark-theme{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 345px){
+  .container{
+    margin-inline: 1rem;
+  }
 
+  .home__title{
+    font-size: 2rem;
+  }
+
+  .list__content{
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .routine__images{
+    width: 250px;
+  }
+
+  .follow__img-3{
+    transform: translateX(0) rotate(15deg);
+  }
+  .follow__img-4{
+    transform: translateX(0) rotate(-15deg);
+  }
+}
 
 /* For medium devices */
 
