@@ -1169,4 +1169,15 @@ body.dark-theme{
   }
 }
 
+@media screen and (min-width: 1248px){
+  .home__container{
+    grid-template-columns: 500px 600px;
+    justify-content: initial;
+  }
+
+  .home__img{
+    width: 600px;
+  }
+}
+
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
