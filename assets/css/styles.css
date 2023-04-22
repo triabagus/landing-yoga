@@ -1181,3 +1181,15 @@ body.dark-theme{
 }
 
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
+@media screen and (min-width: 2000px){
+  .container{
+    max-width: 1250px;
+  }
+
+  .home__container,
+  .list__container,
+  .health__container,
+  .routine__container{
+    justify-content: space-between;
+  }
+}
